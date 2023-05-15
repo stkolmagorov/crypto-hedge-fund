@@ -1,0 +1,35 @@
+{
+    "tokens": {
+        "btc": "BTC",
+        "eth": "ETH",
+        "busd": "BUSD",
+        "pairs": {
+            "ethBusd": "PancakeSwapEthBusdPair",
+            "btcBusd": "PancakeSwapBtcBusdPair"
+        }
+    },
+    "routers": {
+        "pancake": "PancakeSwapRouter",
+        "ape": "ApeSwapRouter",
+        "bi": "BiSwapRouter"
+    },
+    "factories": {
+        "pancake": "PancakeSwapFactory",
+        "ape": "ApeSwapFactory",
+        "bi": "BiSwapFactory"
+    },
+    "pairs": {
+        "pancake": {
+            "lp": "PancakePairLP",
+            "pair": "PancakeSwapZoinksBusdPair"
+        },
+        "ape": {
+            "lp": "ApePairLP",
+            "pair": "ApeSwapZoinksBusdPair"
+        },
+        "bi": {
+            "lp": "BiPairLP",
+            "pair": "BiSwapZoinksBusdPair"
+        }
+    }
+}
